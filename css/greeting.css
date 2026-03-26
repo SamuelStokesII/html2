@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(1, 44, 77);
+}
+
+.card {
+  background-color: rgb(126, 186, 250);
+  max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px gray;
+  transition: transform 0.3s, background-color 0.3s ease
+}
+
+.card:hover {
+  background-color: rgb(182, 192, 244);
+  transform: scale(1.1);
+}
+
+h1::before {
+  content: "⚡️ ";
+}
+
+h1::after {
+  content: " ⚡️";
+}
+
+.message {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-links a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: midnightblue;
+  transition: background-color 0.3s ease;
+}
+
+.card-links a:hover {
+  background-color: rgb(98, 0, 255);
+}
+
+.card-links a:active {
+  background-color: midnightblue;
+}
+
+.card-links a:focus {
+  outline: 2px solid rgb(245, 85, 5);
+}
+
+.card-links a:visited {
+  color: crimson;
+}
+
+section {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgb(208, 125, 241);
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+section:hover{
+  transform: skewX(5deg);
+  background-color: rgb(126, 186, 250);;
+}
+
